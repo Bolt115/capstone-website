@@ -1,0 +1,1 @@
+async function loadHeader(){const r=await fetch("header.html");document.getElementById("header").innerHTML=await r.text();}loadHeader();

@@ -1,12 +1,9 @@
-
-body{margin:0;font-family:Inter,Segoe UI,Arial;background:#ffffff;color:#111}
-nav{display:flex;justify-content:space-between;padding:20px 40px;border-bottom:1px solid #eee;position:sticky;top:0;background:#fff}
-nav a{text-decoration:none;color:#111;margin-left:20px;font-size:14px}
-.hero{height:80vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
-.hero h1{font-size:42px;margin-bottom:10px}
+body{margin:0;font-family:Inter,Arial;background:#fff;color:#111}
+nav{display:flex;justify-content:space-between;padding:20px 40px;border-bottom:1px solid #eee}
+.nav-left{display:flex;align-items:center}
+.nav-logo{height:28px;margin-right:10px}
 .section{padding:60px 12%;max-width:1000px;margin:auto}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
-.card{border:1px solid #eee;padding:20px;border-radius:10px}
-img{width:100%;border-radius:8px;margin-top:15px}
-h2{margin-bottom:10px}
-footer{text-align:center;padding:40px;border-top:1px solid #eee;color:#666}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+img{width:100%;border-radius:8px}
+h1{text-align:center;font-weight:500}
+p{color:#444}
